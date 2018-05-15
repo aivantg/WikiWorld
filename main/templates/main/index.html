@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>Welcome!</h2>
+    <p>Every month, millions of people click around on Wikipedia searching for knowledge.
+      <br>This website is here to help you learn more about how people click!<br><br>
+      The primary method of using this website right now is by building a URL based on the info you want.<br>
+      The URL will be structured like this:<br><br> <b>http://wikiworld.herokuapp.com/links?src=SOURCE_PAGE&dest=DEST_PAGE&month=MONTH&order=ORDER&lower_bound=LOWER_BOUND&upper_bound=UPPER_BOUND&limit=LIMIT</b><br><br>
+      That's a really long list, and all the capitalized words are customizable, but don't worry! You don't need to fill them all in. The bare minimum is to name either a source page or a destination page<br>
+      <br><h3>A Brief Guide to the URL Parameters</h3><br>
+      SOURCE PAGE: The page where people clicked <i>from</i><br>
+      DEST PAGE: The page where people clicked <i>to</i><br>
+      MONTH: The month of the data you're looking at. Format: 2018-01, Default: All months<br>
+      ORDER: Either 'asc' for ascending or 'desc' for descending based on how many times clicks happened between two pages<br>
+      LOWER_BOUND: The lower bound for the amount of clicks per link in your results<br>
+      UPPER_BOUND: The upper bound for the amount of clicks per link in your results<br>
+      LIMIT: How many results to show<br>
+      <br>This is a lot of info. Here are some examples!
+      <br>Simple: Top 50 pages clicked to <i>from</i> Barack Obama's wikipedia page in January 2018:<br><a href='/links?src=Barack_Obama&month=2018-01'>wikiworld.herokuapp.com/links?src=Barack_Obama&month=2018-01</a>
+      <br>Complex: The top 20 pages that people clicked from to get to the wikipedia page on Physics with at least 500 clicks but no more than 2000:<br><a href='/links?dest=Physics&order=desc&lower_bound=500&upper_bound=2000&limit=20'>wikiworld.herokuapp.com/links?dest=Physics&order=desc&lower_bound=500&upper_bound=2000&limit=20</a>
+      <br><br>Happy Exploring!!<br><br><b>Note: The format for page names is exactly as they are in the url for their actual wikipedia page, so check that out if you get stuck!
+
+  </body>
+</html>
