@@ -5,7 +5,9 @@ These scripts are very simple and can be run with a single command.
 First, edit  `urls.txt` and for every file you'd like to import into the database, add a new line where the first line is the url and the name of the database table separated by a space.
 
 After that, run the script by using the following command:
+
 `source import.sh "-u root -ppassword -P 3306 -h myhost.website.com" wikiworld < urls.txt` 
+
 The first argument is your mysql parameters and your second argument is the name of the database you'd like to import to.
 
 
