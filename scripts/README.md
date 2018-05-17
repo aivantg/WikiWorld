@@ -1,4 +1,4 @@
-# Download scripts
+# Setup Scripts
 
 These scripts are very simple and can be run with a single command. They are broken up into two parts, one script to download the data and enter it into the database. And a second to run a series of sql scripts that will process all the raw tables of wikipedia data into three tables: page, link, and request.
 
