@@ -1,6 +1,6 @@
 #!/bin/bash
-DBParams = $1
-DBName = $2
+DBParams=$1
+DBName=$2
 
 function process() {
   wget $1 -O "$2.gz"
@@ -10,7 +10,7 @@ function process() {
   rm $2
 }
 
-eval "mysql -u $DBParams -e 'CREATE DATABASE IF NOT EXISTS $DBName'"
+eval "mysql $DBParams -e 'CREATE DATABASE IF NOT EXISTS $DBName'"
 while IFS= read -r -a array
 do
   process ${array[0]} ${array[1]}
