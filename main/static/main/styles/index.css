@@ -1,0 +1,47 @@
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 50%;
+}
+
+.container {
+  font-family: Montserrat;
+  display:flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.title {
+  font-size: 80;
+  text-align: center;
+  width: 40%;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+
+}
+
+.btn {
+  font-family: Lato;
+  border-radius: 5px;
+  padding: 10px 55px;
+  margin: auto;
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.btn:hover {
+  background-color: #6FC6FF;
+}

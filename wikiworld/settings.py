@@ -79,6 +79,15 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysqlite3',
+    #     'NAME': 'wikiworld',
+    #     'USER': 'root',
+    #     'PASSWORD': 'agwikipass1',
+    #     'PORT': '3306',
+    #     'HOST': 'wikidb.cckse4tjdzjf.us-west-1.rds.amazonaws.com'
+    # }
 }
 
 

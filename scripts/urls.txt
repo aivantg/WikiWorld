@@ -1,0 +1,5 @@
+https://dumps.wikimedia.org/other/clickstream/2017-11/clickstream-enwiki-2017-11.tsv.gz raw201711
+https://dumps.wikimedia.org/other/clickstream/2017-12/clickstream-enwiki-2017-12.tsv.gz raw201712
+https://dumps.wikimedia.org/other/clickstream/2018-01/clickstream-enwiki-2018-01.tsv.gz raw201801
+https://dumps.wikimedia.org/other/clickstream/2018-02/clickstream-enwiki-2018-02.tsv.gz raw201802
+https://dumps.wikimedia.org/other/clickstream/2018-03/clickstream-enwiki-2018-03.tsv.gz raw201803
