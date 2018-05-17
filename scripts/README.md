@@ -30,3 +30,4 @@ This will create 3 indexed tables that relate to eachother where you can start m
 - This download script assumes the columns  of all downloaded files are of the form (src: text, dest: text, type: text, count: integer). If any files don't follow this format, either edit the script or simply create the tables in your database beforehand. 
 - The SQL process script also assumes that all tables are of form listed above. 
 - This will likely take a long time with a lot of reads and writes. make sure your database is prepared to handle it!
+  - If you are doing this in a ssh session and would like to close it while the process runs, run `nohup <command above> &` to run it in the background.
