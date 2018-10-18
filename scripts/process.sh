@@ -5,9 +5,9 @@ DBName=$2
 function process() {
   echo $1
   echo $2
-  sed -e "s/tbname/$1/g" sql/process_template.sql > sql/process_tb.sql
-  sed -i -e "s/month-string/$2/g" sql/process_tb.sql
-  # eval "mysql $DBParams $DBName < sql/process_tb.sql"
+  # sed -e "s/tbname/$1/g" sql/process_template.sql > sql/process_tb.sql
+  # sed -e "s/month-string/$2/g" sql/process_tb.sql > sql/process_tb.sql
+  eval "mysql $DBParams $DBName < sql/process_tb.sql"
   # rm sql/process_tb.sql
 }
 
