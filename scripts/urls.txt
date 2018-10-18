@@ -2,4 +2,9 @@ https://dumps.wikimedia.org/other/clickstream/2017-11/clickstream-enwiki-2017-11
 https://dumps.wikimedia.org/other/clickstream/2017-12/clickstream-enwiki-2017-12.tsv.gz raw201712
 https://dumps.wikimedia.org/other/clickstream/2018-01/clickstream-enwiki-2018-01.tsv.gz raw201801
 https://dumps.wikimedia.org/other/clickstream/2018-02/clickstream-enwiki-2018-02.tsv.gz raw201802
-https://dumps.wikimedia.org/other/clickstream/2018-03/clickstream-enwiki-2018-03.tsv.gz raw201803
+https://dumps.wikimedia.org/other/clickstream/2018-04/clickstream-enwiki-2018-04.tsv.gz raw201804
+https://dumps.wikimedia.org/other/clickstream/2018-05/clickstream-enwiki-2018-05.tsv.gz raw201805
+https://dumps.wikimedia.org/other/clickstream/2018-06/clickstream-enwiki-2018-06.tsv.gz raw201806
+https://dumps.wikimedia.org/other/clickstream/2018-07/clickstream-enwiki-2018-07.tsv.gz raw201807
+https://dumps.wikimedia.org/other/clickstream/2018-08/clickstream-enwiki-2018-08.tsv.gz raw201808
+https://dumps.wikimedia.org/other/clickstream/2018-09/clickstream-enwiki-2018-09.tsv.gz raw201809
